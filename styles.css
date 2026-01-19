@@ -1,0 +1,45 @@
+/* Apply a background color to the entire body */
+body {
+    font-family: Arial, sans-serif; /* Change the default font */
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333; /* Dark gray text color */
+    margin: 0; /* Remove default body margin */
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Style the header section */
+header {
+    background-color: #007BFF; /* Blue background for the header */
+    color: white; /* White text for the header */
+    padding: 1rem 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Style the main content area */
+main {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 2rem auto; /* Center the content on the page */
+    background: white; /* White background for the main content */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Style the paragraphs within the main area */
+main p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333; /* Dark background for the footer */
+    color: white; /* White text for the footer */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
